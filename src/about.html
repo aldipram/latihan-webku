@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+     <!-- tailwind -->
+     <link rel="stylesheet" href="../src/output.css">
+     <!-- css -->
+     <link rel="stylesheet" href="../src/input.css">
+ 
+     <!-- icon -->
+     <script src="https://kit.fontawesome.com/7e35dc99cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="bgc pt-20">
+
+        <div class="flex justify-between w-10/12 h-12 m-auto items-center bg-black rounded-lg pr-8 pl-8">
+            <img src="../assets/img/panda.jpg" alt="" class="rounded-full  h-10 w-10 object-cover">
+            <nav class="hidden" id="menu">
+                <ul class="flex text-white gap-4 font-bold">
+                    <li class=" hover:text-orange-500 transition-all"><a href="./home.html">Home</a></li>
+                    <li class=" hover:text-orange-500 transition-all"><a href="./about.html">About Me</a></li>
+                    <li class=" hover:text-orange-500 transition-all"><a href="./more-info.html">More Info</a></li>
+                </ul>
+            </nav>
+
+            <div id="hamburger">
+                <div class="hamburger" id="bar1"></div>
+                <div class="hamburger" id="bar2"></div>
+                <div class="hamburger" id="bar3"></div>
+            </div>
+            
+        </div>
+
+        <section class="w-10/12 m-auto">
+
+            <div class="pt-5 flex flex-col font-thin ">
+                <h2 class="text-xl text-white font-bold">Hi, My Name is <span class="text-orange-500 italic text-2xl">NANDA ALDI PRAMUDYA</span></h2>
+                <p class="text-white text-xl -tracking-tighter">I'm a beginner FrontEnd Developer</p>
+            </div>
+
+            <div class="pt-5 flex gap-5 flex-wrap justify-center">
+                <img src="../assets/img/photo1.jpeg" alt="" class="w-[47%] rounded-xl">
+                <img src="../assets/img/photo2.jpeg" alt="" class="w-[47%] rounded-xl">
+                <img src="../assets/img/photo3.jpeg" alt="" class="w-[47%] rounded-xl">
+                <img src="../assets/img/photo4.jpeg" alt="" class="w-[47%] rounded-xl">
+            </div>
+
+            <div class="pt-5">
+                <h3 class="text-white font-bold text-xl text-center">What Is <span class="text-orange-500">FrontEnd Developer?</span></h3>
+                <p class="text-white text-sm -tracking-tighter pt-4 font-thin">
+                    A Front-End Developer is someone who creates websites and web applications.
+                </p>
+                <p class="text-white text-sm -tracking-tighter pt-2 font-thin">
+                    The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works.
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
