@@ -1,3 +1,4 @@
+# ini jangan di upload ya tolong!!!
 .vscode/*
-dist/*
-node_modules/*
+dist
+node_modules
